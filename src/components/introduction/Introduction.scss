@@ -1,0 +1,32 @@
+@import '../../Custom';
+.introSection {
+  &__intro {
+    h1 {
+      background-color: $primary;
+      font-weight: bold;
+      font-size: 80px;
+      margin: 5rem auto;
+      //@include small-down {
+      //  //background-color: #0c4128;
+      //  font-size: 65px;
+      //}
+
+      span {
+        //@include mainColor
+      }
+    }
+
+    p {
+      font-weight: 600;
+    }
+  }
+
+  button {
+    //@include btn;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    padding: 10px 25px 10px 25px;
+    text-transform: capitalize;
+    margin: 44px 0 44px 0;
+  }
+}

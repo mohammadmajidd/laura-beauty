@@ -12,15 +12,13 @@ const Header = () => {
                     <Navbar.Brand href="#home">
                         <img alt={logo} src={logo}/>
                     </Navbar.Brand>
-                    <Nav className="me-auto">
-                    </Nav>
-                    <Nav className="me-auto">
+                    <Nav >
                         <Nav.Link href="#home">Brands</Nav.Link>
                         <Nav.Link href="#features">Products</Nav.Link>
                         <Nav.Link href="#pricing">Branches</Nav.Link>
                         <Nav.Link href="#pricing">About Us</Nav.Link>
                     </Nav>
-                    <Nav className="me-auto">
+                    <Nav>
                         <Nav><img alt={searchIcon} src={searchIcon}/></Nav>
                         <Nav><img alt={userIcon} src={userIcon}/></Nav>
                         <Nav><img alt={shoppingIcon} src={shoppingIcon}/></Nav>
