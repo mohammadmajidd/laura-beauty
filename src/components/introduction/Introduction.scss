@@ -1,8 +1,8 @@
-@import '../../Custom';
+@use '../../Custom'as * ;
 .introSection {
   &__intro {
     h1 {
-      background-color: $primary;
+      //background-color: $primary;
       font-weight: bold;
       font-size: 80px;
       margin: 5rem auto;
@@ -21,9 +21,9 @@
     }
   }
 
-  button {
-    //@include btn;
+  Button {
     font-weight: 600;
+    background-color: black;
     letter-spacing: 0.96px;
     padding: 10px 25px 10px 25px;
     text-transform: capitalize;

@@ -1,5 +1,6 @@
+$pink: #c24b71;
 
-$primary:#c24b71;
+$primary: $pink;
 
 /* import bootstrap to set changes */
-@import "~bootstrap/scss/bootstrap";
+@import "../node_modules/bootstrap/scss/bootstrap";

@@ -1,0 +1,13 @@
+@use "../../Custom" as *;
+
+.singleCard {
+  background-color: $primary;
+  border-radius: 50%;
+  padding-top: 15px;
+  &__cardImage{
+    padding-top: 20px;
+  }
+  &__brandCard {
+    text-transform: uppercase;
+  }
+}
