@@ -17,9 +17,7 @@ const Comments = () => {
         <Container>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={50}
-                slidesPerView={2}
-                navigation
+                slidesPerView={2.1}
             >
                 {myComments.map(comment=><SwiperSlide><CommentCard comment={comment}/></SwiperSlide>)}
             </Swiper>
