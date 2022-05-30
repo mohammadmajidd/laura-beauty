@@ -2,9 +2,14 @@
 
 
   &__cardHeader {
-    div:nth-child(2) {
+    div {
       background-color: #c24b71;
       color: #fff;
+      font-weight: 600;
+      font-size: 8px;
+      letter-spacing: 0.48px;
+      padding: 4px 8px;
+      border-radius: 10px;
     }
   }
 
@@ -14,7 +19,8 @@
       width: 100%;
     }
   }
-  &__cardTitle{
+
+  &__cardTitle {
     font-weight: 600;
     letter-spacing: 1.08px;
     text-align: left;
