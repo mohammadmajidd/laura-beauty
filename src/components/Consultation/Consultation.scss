@@ -1,0 +1,17 @@
+.consultationSection{
+  background-color: white;
+  &__textContainer{
+    background-color:white ;
+    padding: 0;
+    -moz-border-radius-topright: 30px;
+  }
+  &__imageContainer{
+    img{
+      width: 100%;
+      padding: 0;
+      //background-color:burlywood ;
+    }
+    padding: 0;
+    //background-color:red ;
+  }
+}

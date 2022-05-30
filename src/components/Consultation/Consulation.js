@@ -1,16 +1,20 @@
 import React from 'react';
 import {Col, Container, Row} from "react-bootstrap";
 import consulter from '../../assets/Consultation/woman.png'
+import './Consultation.scss'
+import FormSection from "./FormSection/FormSection";
+
 const Consultation = () => {
     return (
-        <Container>
-            <Row>
-                <Col>
-                    <img src={consulter}/>
+        <Container className={'consultationSection mt-5 mb-5'}>
+            <Row >
+                <Col className={'consultationSection__imageContainer'}>
+                    <img alt={consulter} src={consulter}/>
                 </Col>
-                <Col>
-                    Get a free consultation.
-                    Just leave a request below
+                <Col className={'consultationSection__textContainer d-flex justify-content-center flex-column'}>
+                    <h2> Get a free consultation.</h2>
+                    <h2> Just leave a request below</h2>
+                    <FormSection/>
                 </Col>
             </Row>
         </Container>
