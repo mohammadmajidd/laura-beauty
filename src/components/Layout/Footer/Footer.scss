@@ -1,0 +1,12 @@
+.footerSection{
+  background-color: #f7f3f0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  &__imageContainer{
+    width: 100px;
+    margin: auto;
+    img{
+      width: 100%;
+    }
+  }
+}
