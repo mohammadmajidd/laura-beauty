@@ -8,14 +8,16 @@ import LauraBeautyPage from "../../../UI/LauraBeautyPage/LauraBeautyPage";
 
 const Main = () => {
     return (
-        <>
+        <div>
             <LandingPage/>
             <CollectionPage/>
-            <ProductPage/>
-            <ConsultationPage/>
+            <div style={{backgroundColor:'#f7f3f0'}}>
+                <ProductPage/>
+                <ConsultationPage/>
+            </div>
             <CommentsPage/>
             <LauraBeautyPage/>
-        </>
+        </div>
     );
 };
 

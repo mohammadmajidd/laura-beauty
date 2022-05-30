@@ -1,0 +1,47 @@
+.productCard {
+
+
+  &__cardHeader {
+    div:nth-child(2) {
+      background-color: #c24b71;
+      color: #fff;
+    }
+  }
+
+  &__imageContainer {
+
+    img {
+      width: 100%;
+    }
+  }
+  &__cardTitle{
+    font-weight: 600;
+    letter-spacing: 1.08px;
+    text-align: left;
+    color: #271d20;
+  }
+
+  &__productInfo {
+    background-color: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    button {
+      background-color: #ffffff;
+      box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+      padding: 2px 8px;
+      color: #c24b71;
+      border-radius: 50%;
+      text-align: center;
+      border: none;
+    }
+
+    &__action {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  }
+}

@@ -1,19 +1,29 @@
 import React from 'react';
 import {Card} from "react-bootstrap";
-
+import './ProductCard.scss'
 const ProductCard = ({product}) => {
     return (
-        <Card style={{ width: '18rem' }}>
-            <div className={'d-flex justify-content-between'}>
+        <Card  style={{ width: '18rem' }} className={'productCard border-0 shadow p-3 rounded-3'}>
+            <div className={'d-flex justify-content-between productCard__cardHeader'}>
                 <div><img alt='icon' src={product.icon}/></div>
                 <div>new</div>
             </div>
-            <Card.Img variant="top" src={product.image} />
+            <div className={'productCard__imageContainer'}>
+                <Card.Img variant="top" src={product.image} />
+            </div>
+
             <Card.Body>
-                <Card.Title>{product.name}</Card.Title>
-                <div className={'d-flex justify-content-between'}>
-                    <span>${product.price}</span>
-                    <button>+</button>
+                <div className={'productCard__cardTitle'}>
+                    <Card.Title>{product.name}</Card.Title>
+                </div>
+
+                <div className={'d-flex justify-content-between productCard__productInfo'}>
+                    <p>View details</p>
+                    <div className={'productCard__productInfo__action'}>
+                        <p>${product.price}</p>
+                        <button>+</button>
+                    </div>
+
                 </div>
             </Card.Body>
         </Card>
