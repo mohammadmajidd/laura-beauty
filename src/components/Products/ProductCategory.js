@@ -3,25 +3,25 @@ import {Container, Nav} from "react-bootstrap";
 import './ProductCategory.scss'
 const ProductCategory = () => {
     return (
-        <Container className={'productCategory d-flex justify-content-center'}>
-            <Nav className={'px-5'} variant="pills" defaultActiveKey="/home">
+        <Container className={'productCategory '}>
+            <Nav className={'w-100 d-flex justify-content-center'}  variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
-                    <Nav.Link  eventKey="link-Face"> Face </Nav.Link>
+                    <Nav.Link className={'text-black ps-5 pe-5'}  eventKey="link-Face"> Face </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-Lip">Lip</Nav.Link>
+                    <Nav.Link className={'text-black ps-5 pe-5'} eventKey="link-Lip">Lip</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-Eye">Eye</Nav.Link>
+                    <Nav.Link className={'text-black ps-5 pe-5'} eventKey="link-Eye">Eye</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-Eyebrow">Eyebrow</Nav.Link>
+                    <Nav.Link className={'text-black ps-5 pe-5'} eventKey="link-Eyebrow">Eyebrow</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link eventKey="link-Fingernail">Fingernail</Nav.Link>
+                    <Nav.Link className={'text-black ps-5 pe-5'} eventKey="link-Fingernail">Fingernail</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                    <Nav.Link  eventKey="link-Cosmetic">Cosmetic tools</Nav.Link>
+                    <Nav.Link className={'text-black ps-5 pe-5'}  eventKey="link-Cosmetic">Cosmetic tools</Nav.Link>
                 </Nav.Item>
             </Nav>
         </Container>
