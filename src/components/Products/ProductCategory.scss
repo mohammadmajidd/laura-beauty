@@ -2,4 +2,8 @@
 
 .productCategory {
   margin: 50px auto;
+  &__navBar{
+    background-color: white;
+    border-radius: 30px;
+  }
 }

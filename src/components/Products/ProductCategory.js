@@ -4,7 +4,7 @@ import './ProductCategory.scss'
 const ProductCategory = () => {
     return (
         <Container className={'productCategory '}>
-            <Nav className={'w-100 d-flex justify-content-center'}  variant="pills" defaultActiveKey="/home">
+            <Nav className={'w-100 d-flex justify-content-center productCategory__navBar'}  variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
                     <Nav.Link className={'text-black ps-5 pe-5'}  eventKey="link-Face"> Face </Nav.Link>
                 </Nav.Item>
