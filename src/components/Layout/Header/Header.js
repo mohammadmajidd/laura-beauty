@@ -9,9 +9,14 @@ const Header = () => {
         <>
             <Navbar>
                 <Container>
-                    <Navbar.Brand href="#home">
+                    <Navbar.Brand style={{display:"flex"}} href="#home">
                         <img alt={logo} src={logo}/>
+                        <div>
+                            <p>Laura</p>
+                            <p>beauty</p>
+                        </div>
                     </Navbar.Brand>
+
                     <Nav >
                         <Nav.Link href="#home">Brands</Nav.Link>
                         <Nav.Link href="#features">Products</Nav.Link>

@@ -7,7 +7,7 @@ import SingleCard from "./SingleCard";
 const CardCollection = () => {
     return (
         <Container>
-            <h2 className={'text-center'}>A collection of best</h2>
+            <h2 className=" text-center heading"><span>A collection of best</span></h2>
             <Row className='justify-content-center mt-5'>
                 {myCollectionFirstRow.map(el => <Col><SingleCard key={el.id} name={el.name} image={el.image}/></Col>)}
             </Row>

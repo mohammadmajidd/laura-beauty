@@ -4,15 +4,15 @@ import {Card} from "react-bootstrap";
 const ProductCard = ({product}) => {
     return (
         <Card style={{ width: '18rem' }}>
-            <div className={'d-flex justify-content-around'}>
+            <div className={'d-flex justify-content-between'}>
                 <div><img alt='icon' src={product.icon}/></div>
                 <div>new</div>
             </div>
             <Card.Img variant="top" src={product.image} />
             <Card.Body>
                 <Card.Title>{product.name}</Card.Title>
-                <div>
-                    <span>{product.price}</span>
+                <div className={'d-flex justify-content-between'}>
+                    <span>${product.price}</span>
                     <button>+</button>
                 </div>
             </Card.Body>

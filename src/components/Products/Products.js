@@ -19,8 +19,6 @@ const Products = () => {
                 spaceBetween={250}
                 slidesPerView={5}
                 navigation
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
             >
                 {myProducts.map(product => <SwiperSlide> <ProductCard product={product}/></SwiperSlide>)}
             </Swiper>

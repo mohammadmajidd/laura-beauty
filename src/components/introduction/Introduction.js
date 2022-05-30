@@ -10,9 +10,9 @@ const Introduction = () => {
                     <h1>
                         Look <br/> M<span>o</span>re Beautiful With Us
                     </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore et dolore.</p>
-                    <Button className={'border-0'}>shop now</Button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                        sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <Button className={'btn-primary'}>shop now</Button>
                 </Col>
             </Row>
         </Container>

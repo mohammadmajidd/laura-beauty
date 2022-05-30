@@ -1,0 +1,24 @@
+.productSummary{
+  &__category{
+   color: #c24b71;
+    p:first-child{
+      font-size: 120px;
+      font-weight: bold;
+    }
+
+  }
+  &__brands{
+    color: #cccccc;
+    p:first-child{
+      font-size: 120px;
+      font-weight: bold;
+    }
+  }
+  &__products{
+    color: #cccccc;
+    p:first-child{
+      font-size: 120px;
+      font-weight: bold;
+    }
+  }
+}

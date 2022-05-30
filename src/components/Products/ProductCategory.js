@@ -1,12 +1,12 @@
 import React from 'react';
 import {Container, Nav} from "react-bootstrap";
-
+import './ProductCategory.scss'
 const ProductCategory = () => {
     return (
-        <Container>
-            <Nav variant="pills" defaultActiveKey="/home">
+        <Container className={'productCategory d-flex justify-content-center'}>
+            <Nav className={'px-5'} variant="pills" defaultActiveKey="/home">
                 <Nav.Item>
-                    <Nav.Link eventKey="link-Face"> Face </Nav.Link>
+                    <Nav.Link  eventKey="link-Face"> Face </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link eventKey="link-Lip">Lip</Nav.Link>

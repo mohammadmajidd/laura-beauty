@@ -20,8 +20,6 @@ const Comments = () => {
                 spaceBetween={50}
                 slidesPerView={2}
                 navigation
-                onSwiper={(swiper) => console.log(swiper)}
-                onSlideChange={() => console.log('slide change')}
             >
                 {myComments.map(comment=><SwiperSlide><CommentCard comment={comment}/></SwiperSlide>)}
             </Swiper>
