@@ -17,4 +17,11 @@
       transform: translate(10px,-10px);
     }
   }
+  .active{
+    border-bottom: #c24b71 solid 1px;
+  }
+  &__nav{
+    font-size: 18px;
+    font-weight: 600;
+  }
 }

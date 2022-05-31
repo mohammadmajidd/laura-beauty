@@ -18,16 +18,16 @@ const Header = () => {
                         </div>
                     </Navbar.Brand>
 
-                    <Nav >
-                        <Nav.Link href="#home">Brands</Nav.Link>
-                        <Nav.Link href="#features">Products</Nav.Link>
-                        <Nav.Link href="#pricing">Branches</Nav.Link>
-                        <Nav.Link href="#pricing">About Us</Nav.Link>
+                    <Nav className={'header__nav'}>
+                        <Nav.Link className={'me-4 ms-4'} href="#home">Brands</Nav.Link>
+                        <Nav.Link className={'me-4 ms-4'} href="#features">Products</Nav.Link>
+                        <Nav.Link className={'me-4 ms-4'} href="#pricing">Branches</Nav.Link>
+                        <Nav.Link className={'me-4 ms-4'} href="#price">About Us</Nav.Link>
                     </Nav>
                     <Nav>
-                        <Nav><img alt={searchIcon} src={searchIcon}/></Nav>
-                        <Nav><img alt={userIcon} src={userIcon}/></Nav>
-                        <Nav><img alt={shoppingIcon} src={shoppingIcon}/></Nav>
+                        <Nav className={'me-2 ms-2'}><img alt={searchIcon} src={searchIcon}/></Nav>
+                        <Nav className={'me-2 ms-2'}><img alt={userIcon} src={userIcon}/></Nav>
+                        <Nav className={'me-2 ms-2'}><img alt={shoppingIcon} src={shoppingIcon}/></Nav>
                     </Nav>
                 </Container>
             </Navbar>
