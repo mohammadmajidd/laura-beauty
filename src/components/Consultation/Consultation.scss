@@ -1,18 +1,16 @@
-.consultationSection{
-  //background-color: white;
-  &__textContainer{
-    padding: 0;
+.consultationSection {
+  &__textContainer {
     background-color: white;
-    font-family: 'Montserrat', sans-serif;
-  }
-  &__imageContainer{
-    img{
-      width: 100%;
-      padding: 0;
-      margin: 0;
-      //background-color:burlywood ;
+
+    h2 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
     }
-    padding: 0;
-    //background-color:red ;
+  }
+
+  &__imageContainer {
+
+    img {
+    }
   }
 }

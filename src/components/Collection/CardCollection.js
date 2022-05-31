@@ -9,10 +9,10 @@ const CardCollection = () => {
         <Container className='collectionSection mt-5'>
             <h2 className="text-center fw-bold"><span>A collection of best</span></h2>
             <Row className='justify-content-center mt-5'>
-                {myCollectionFirstRow.map(el => <Col><SingleCard key={el.id} name={el.name} image={el.image}/></Col>)}
+                {myCollectionFirstRow.map(el => <Col key={el.id}><SingleCard key={el.id} name={el.name} image={el.image}/></Col>)}
             </Row>
             <Row className='justify-content-center mt-5'>
-                {myCollectionSecondRow.map(el => <Col><SingleCard key={el.id} name={el.name} image={el.image}/></Col>)}
+                {myCollectionSecondRow.map(el => <Col key={el.id}><SingleCard  name={el.name} image={el.image}/></Col>)}
             </Row>
         </Container>
     );

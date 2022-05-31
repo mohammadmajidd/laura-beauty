@@ -1,0 +1,17 @@
+.FormSection button{
+  background-color: #c24b71;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+}
+.FormSection{
+  display: flex;
+  align-items: center;
+  input{
+    border-radius: 30px;
+    padding: 10px;
+    width: 464px;
+    height: 40px;
+    border: #cccccc solid 1px;
+  }
+}

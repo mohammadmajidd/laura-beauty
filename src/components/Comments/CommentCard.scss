@@ -1,19 +1,27 @@
 .commentSection {
 
-  h5{
+  h5 {
     text-align: center;
     font-weight: bold;
+    color: #271d20;
+    margin-top: -50px;
   }
 
-  &__card{
-  background-color: #fff!important;
-    border-radius: 90px;
-    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.15);
+  &__card {
+    background-color: #f0f5f8 !important;
+    border-radius: 80px 80px 5px 5px !important;
+    color: #999999 !important;
+    padding: 10px !important;
   }
+  &__card:hover{
+    box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.15);
+    background-color: white !important;
+  }
+
   &__imageContainer {
     width: 100px;
-    margin: -20px auto;
-
+    margin: auto;
+    transform: translateY(-50%);
     img {
       width: 100%;
     }

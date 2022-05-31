@@ -1,15 +1,13 @@
 import React from 'react';
 import {Form,Button} from "react-bootstrap";
-
+import './FormSection.scss'
 
 const FormSection = () => {
     return (
-        <Form>
-            <Form.Group className="mb-3" controlId="formBasicEmail">
-                <Form.Control type="email" placeholder="Your phone number" />
-            </Form.Group>
-            <Button  >Callback</Button>
-        </Form>
+        <div className={'FormSection'}>
+            <input placeholder={'Your phone number'}/>
+            <Button>Callback</Button>
+        </div>
     );
 };
 

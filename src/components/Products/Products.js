@@ -25,7 +25,7 @@ const Products = () => {
                     1440: {slidesPerView: 4.5,spaceBetween: 45}
                 }}
             >
-                {myProducts.map(product => <SwiperSlide> <ProductCard product={product}/></SwiperSlide>)}
+                {myProducts.map(product => <SwiperSlide key={product.id}> <ProductCard  product={product}/></SwiperSlide>)}
             </Swiper>
         </Container>
     );
