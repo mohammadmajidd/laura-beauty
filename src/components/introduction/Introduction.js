@@ -6,7 +6,7 @@ const Introduction = () => {
     return (
         <Container>
             <Row className='mt-5'>
-                <Col xs={6} className='introSection__intro'>
+                <Col xs={12} md={8} lg={6} className='introSection__intro'>
                     <h1>
                         Look <br/> M<span>o</span>re Beautiful With Us
                     </h1>
