@@ -18,13 +18,10 @@ const ProductCard = ({product}) => {
                     <Card.Title>{product.name}</Card.Title>
                 </div>
 
-                <div className={'d-flex justify-content-between productCard__productInfo'}>
-                    <p>View details</p>
-                    <div className={'productCard__productInfo__action'}>
-                        <p>${product.price}</p>
-                        <button>+</button>
-                    </div>
-
+                <div className={'d-flex justify-content-between align-items-baseline productCard__productInfo'}>
+                    <span className='productCard__productInfo__detail'>View details</span>
+                    <span className='productCard__productInfo__price'>${product.price}</span>
+                    <button>+</button>
                 </div>
             </Card.Body>
         </Card>

@@ -6,8 +6,8 @@ import FormSection from "./FormSection/FormSection";
 
 const Consultation = () => {
     return (
-        <Container className={'consultationSection mt-5 mb-5'}>
-            <Row >
+        <Container className={'consultationSection mt-5 pb-3'}>
+            <Row>
                 <Col className={'consultationSection__imageContainer'}>
                     <img alt={consulter} src={consulter}/>
                 </Col>

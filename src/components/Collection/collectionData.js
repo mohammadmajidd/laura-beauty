@@ -7,7 +7,7 @@ import whiteElf from '../../assets/collectionImage/elf.svg'
 
 export const myCollectionFirstRow = [
     {id: 1, image: channel, name: 'channel'},
-    {id: 2, image: whiteElf, name: 'elf'},
+    {id: 2, image: pinkelf,hoverImage:whiteElf, name: 'elf'},
     {id: 3, image: givenchy, name: 'givenchy'},
     {id: 4, image: clinque, name: 'clinque'},
     {id: 5, image: estee, name: 'estee'},

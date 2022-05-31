@@ -3,11 +3,6 @@
 .cardContainer {
   &__singleCard {
     border-radius: 20px !important;
-    &__elf{
-      background-color: $primary !important;
-      border-radius: 20px !important;
-      color: white !important;
-    }
 
     &__imageContainer {
       margin: auto;
@@ -20,8 +15,15 @@
 
     &__brandCard {
       text-transform: uppercase;
+      color: #6a5b60;
     }
   }
+  //&__singleCard:hover {
+  //  background-color: #c24b71 !important;
+  //  &__brandCard:hover{
+  //    color: white !important;
+  //  }
+  //}
 }
 *{
   box-sizing: border-box;

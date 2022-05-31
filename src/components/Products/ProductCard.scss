@@ -22,6 +22,7 @@
 
   &__cardTitle {
     font-weight: 600;
+    font-size: 18px;
     letter-spacing: 1.08px;
     text-align: left;
     color: #271d20;
@@ -31,16 +32,26 @@
     background-color: #f8f8f8;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: baseline;
+    border-radius: 30px;
+    &__detail{
+      color: #aaaaaa;
+      font-size: 14px;
+      letter-spacing: 0.84px;
 
+    }
+    &__price{
+
+    }
     button {
       background-color: #ffffff;
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-      padding: 2px 8px;
+      margin: 0;
       color: #c24b71;
       border-radius: 50%;
       text-align: center;
       border: none;
+
     }
 
     &__action {
