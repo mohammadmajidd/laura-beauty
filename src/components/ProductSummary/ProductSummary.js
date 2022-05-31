@@ -10,7 +10,7 @@ const ProductSummary = () => {
             <h2 className=" text-center fw-bold mt-5"><span>Various products</span></h2>
 
             <Row className={'productSummary'}>
-                <Col className={'productSummary__imageContainer p-0'}>
+                <Col  className={'productSummary__imageContainer p-0 d-none d-xl-block'}>
                     <img alt={brush} src={brush}/>
                 </Col>
                 <Col
@@ -27,7 +27,7 @@ const ProductSummary = () => {
                     <p>9<span>k</span></p>
                     <p>products</p>
                 </Col>
-                <Col className={'productSummary__imageContainer p-0'}>
+                <Col className={'productSummary__imageContainer p-0 d-none d-xl-block'}>
                     <img alt={palette} src={palette}/>
                 </Col>
             </Row>
