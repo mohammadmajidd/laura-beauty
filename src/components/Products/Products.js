@@ -16,8 +16,14 @@ const Products = () => {
         <Container>
             <Swiper
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
-                spaceBetween={250}
-                slidesPerView={5}
+                breakpoints={{
+                    320: {slidesPerView: 1},
+                    375: {slidesPerView: 1.2},
+                    425: {slidesPerView: 1.5, spaceBetween: 45},
+                    768: {slidesPerView: 3},
+                    1024: {slidesPerView: 4, spaceBetween: 65},
+                    1440: {slidesPerView: 4.5,spaceBetween: 45}
+                }}
             >
                 {myProducts.map(product => <SwiperSlide> <ProductCard product={product}/></SwiperSlide>)}
             </Swiper>
