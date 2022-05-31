@@ -1,5 +1,5 @@
 @import "../../custom";
-
+@import "../../mixin";
 .introSection {
   //padding:1rem 0;
   &__intro {
@@ -9,11 +9,11 @@
       //background-color: $primary;
       font-weight: bold;
       font-size: 80px;
-      margin: 5rem auto;
-      //@include small-down {
-      //  //background-color: #0c4128;
-      //  font-size: 65px;
-      //}
+      margin: 60px auto;
+      @include extra-Small {
+        background-color: #0c4128;
+        font-size: 65px;
+      }
 
       span {
         color: $primary
