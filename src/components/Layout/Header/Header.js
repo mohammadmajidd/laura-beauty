@@ -4,12 +4,13 @@ import logo from '../../../assets/navBar icons/logo.svg'
 import searchIcon from '../../../assets/navBar icons/search-interface-symbol.svg'
 import userIcon from '../../../assets/navBar icons/ic user.svg'
 import shoppingIcon from '../../../assets/navBar icons/shopping-bag-of-normal-design-outline.svg'
+import './Header.scss'
 const Header = () => {
     return (
         <>
             <Navbar>
-                <Container>
-                    <Navbar.Brand style={{display:"flex"}} href="#home">
+                <Container className={'header'}>
+                    <Navbar.Brand className={'header__logo'}>
                         <img alt={logo} src={logo}/>
                         <div>
                             <p>Laura</p>
