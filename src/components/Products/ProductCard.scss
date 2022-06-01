@@ -1,6 +1,9 @@
 .productCard {
-
-border-radius: 20px !important;
+  border-radius: 30px !important;
+  width: 280px;
+  section{
+    padding: 0;
+  }
   &__cardHeader {
     div {
       background-color: #c24b71;
@@ -21,11 +24,14 @@ border-radius: 20px !important;
   }
 
   &__cardTitle {
+    p{
+      font-size: 15px;
+    }
     font-weight: 600;
-    font-size: 18px;
     letter-spacing: 1.08px;
     text-align: left;
     color: #271d20;
+    font-size: 10px !important;
   }
 
   &__productInfo {
@@ -35,15 +41,19 @@ border-radius: 20px !important;
     align-items: baseline;
     border-radius: 30px;
     padding: 4px;
-    &__detail{
+
+    &__detail {
       color: #aaaaaa;
-      font-size: 14px;
+      font-size: 12px;
       letter-spacing: 0.84px;
 
     }
-    &__price{
 
+    &__price {
+      font-weight: bold;
+      font-size: 14px;
     }
+
     button {
       background-color: #ffffff;
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);

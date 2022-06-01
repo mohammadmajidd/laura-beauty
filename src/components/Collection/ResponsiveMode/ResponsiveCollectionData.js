@@ -15,6 +15,7 @@ const channel = <svg width="103" height="103" viewBox="0 0 103 103" fill="none" 
     </defs>
 </svg>
 
+
 const givenchy = <svg xmlns="http://www.w3.org/2000/svg" width="89.347" height="97.748" viewBox="0 0 89.347 97.748">
     <path data-name="Path 67"
           d="M13.648 44.455h40.123V35.7H22.223V8.751h22.359V17.5h-8.751v9.32h17.5V0H13.56v44.455zm88.822 0H62.347V35.7h31.547V8.751H71.535V17.5h8.751v9.32h-17.5V0h40.123v44.455zm-88.823 8.751h40.124v8.751H22.223v26.822h22.359v-8.751h-8.751v-9.1h17.5v26.82H13.56V53.293zm88.822 0H62.347v8.751h31.547v26.822H71.535v-8.751h8.751v-9.1h-17.5v26.82h40.123V53.293z"
@@ -62,19 +63,17 @@ const estee = <svg xmlns="http://www.w3.org/2000/svg" width="102.443" height="10
     </g>
 </svg>
 
-export const myCollectionFirstRow = [
+
+export const myCollectionResponsiveMode = [
     {id: 1, image: clinique, name: 'channel'},
     {id: 2, image: elf, name: 'elf'},
     {id: 3, image: givenchy, name: 'givenchy'},
     {id: 4, image: clinique, name: 'clinique'},
-    {id: 5, image: givenchy, name: 'estee'},
-
-]
-export const myCollectionSecondRow = [
+    {id: 5, image: elf, name: 'estee'},
     {id: 6, image: clinique, name: 'clinque'},
-    {id: 7, image: givenchy, name: 'estee'},
-    {id: 8, image: clinique, name: 'channel'},
-    {id: 9, image: elf, name: 'elf'},
+    {id: 7, image: elf, name: 'estee'},
+    {id: 8, image: givenchy, name: 'channel'},
+    {id: 9, image: elf, name: ' elf'},
     {id: 10, image: givenchy, name: 'givenchy'},
 
 ]

@@ -1,0 +1,14 @@
+@use "../../../mixin" as *;
+.graySectionCurveTop {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1440 320'%3E%3Cpath fill='%23f7f3f0' fill-opacity='1' d='M0 128L120 144C240 160 480 192 720 192C960 192 1200 160 1320 144L1440 128L1440 320L1320 320C1200 320 960 320 720 320C480 320 240 320 120 320L0 320Z'%3E%3C/path%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position-y: 27%;
+  @include large-Down{
+    //background-color: #f7f3f0;
+  }
+
+}
+
+.graySectionSimple {
+  background-color: #f7f3f0;
+}

@@ -1,6 +1,13 @@
+@use "../../mixin" as *;
 @import "../../custom" ;
 
 .productSummary {
+  &__title{
+    @include titleStyle;
+    span{
+      background-color: #f7f3f0;
+    }
+  }
   &__imageContainer {
   background-color: #f7f3f0;
   }

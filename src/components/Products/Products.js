@@ -19,11 +19,12 @@ const Products = () => {
                 breakpoints={{
                     320: {slidesPerView: 1},
                     375: {slidesPerView: 1.2},
-                    425: {slidesPerView: 1.5, spaceBetween: 45},
-                    768: {slidesPerView: 3},
-                    1024: {slidesPerView: 4, spaceBetween: 65},
-                    1440: {slidesPerView: 4.5,spaceBetween: 45}
+                    425: {slidesPerView: 1, spaceBetween: 25},
+                    768: {slidesPerView: 2 , spaceBetween: 105},
+                    1024: {slidesPerView: 3, spaceBetween: 200},
+                    1440: {slidesPerView: 5,spaceBetween: 245}
                 }}
+               navigation={true}
             >
                 {myProducts.map(product => <SwiperSlide key={product.id}> <ProductCard  product={product}/></SwiperSlide>)}
             </Swiper>

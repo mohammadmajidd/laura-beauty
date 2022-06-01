@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <div className={'footerSection'}>
             <div className={'footerSection__imageContainer'}>
-                <img src={logo}/>
+                <img alt={logo} src={logo}/>
             </div>
             <Nav className={'d-flex justify-content-center'}>
                 <Nav.Item>

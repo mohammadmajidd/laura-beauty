@@ -1,12 +1,4 @@
+@use "../../mixin" as *;
 .heading {
-  margin-bottom: 5rem;
-  border-bottom: 1px solid #ddd;
-  line-height: 0.1em;
-  font-weight: bold;
-  margin-top: 5rem;
-
-  span {
-    background: #fff;
-    padding: 0 10px;
-  }
+  @include titleStyle
 }

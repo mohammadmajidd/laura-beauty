@@ -4,7 +4,7 @@ import './_LandingPage.scss'
 import Introduction from "../../components/introduction/Introduction";
 const LandingPage = () => {
     return (
-        <div className={'main'}>
+        <div className={'LandingPage'}>
            <Header/>
             <Introduction/>
         </div>

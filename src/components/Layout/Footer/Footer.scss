@@ -3,8 +3,9 @@
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
   &__imageContainer{
-    width: 100px;
+    width: 120px;
     margin: auto;
+    transform: translateY(-40%);
     img{
       width: 100%;
     }

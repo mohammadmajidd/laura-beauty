@@ -5,16 +5,20 @@ import ProductPage from "../../../UI/ProductPage/ProductPage";
 import ConsultationPage from "../../../UI/ConsultationPage/ConsultationPage";
 import CommentsPage from "../../../UI/CommentsPage/CommentsPage";
 import LauraBeautyPage from "../../../UI/LauraBeautyPage/LauraBeautyPage";
+import './Main.scss'
 
 const Main = () => {
     return (
         <div>
             <LandingPage/>
-            <CollectionPage/>
-            <div style={{backgroundColor:'#f7f3f0'}}>
-                <ProductPage/>
-                <ConsultationPage/>
+            <div className={'graySectionCurveTop'}>
+                <CollectionPage/>
+                <div className={'graySectionSimple'}>
+                    <ProductPage/>
+                    <ConsultationPage/>
+                </div>
             </div>
+
             <CommentsPage/>
             <LauraBeautyPage/>
         </div>

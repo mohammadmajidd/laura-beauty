@@ -11,7 +11,7 @@ $xx-largeWidth: 1400px;
 }
 
 @mixin small-down {
-  @media (max-width: #{$mediumWidth}) {
+  @media (max-width: #{$mediumWidth - 1}) {
     @content;
   }
 }
@@ -46,7 +46,24 @@ $xx-largeWidth: 1400px;
   }
 }
 @mixin large-Down {
-  @media (max-width: #{$largeWidth}) {
+  @media (max-width: #{$largeWidth - 1}) {
     @content;
+  }
+}
+@mixin xLargeUp{
+  @media (min-width: #{$x-largeWidth}) {
+    @content;
+  }
+}
+@mixin titleStyle{
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ddd;
+  line-height: 0.1em;
+  font-weight: bold;
+  margin-top: 60px;
+
+  span {
+    background: #fff;
+    padding: 0 10px;
   }
 }

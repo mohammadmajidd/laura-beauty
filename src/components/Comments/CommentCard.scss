@@ -8,14 +8,18 @@
   }
 
   &__card {
-    background-color: #f0f5f8 !important;
     border-radius: 80px 80px 5px 5px !important;
     color: #999999 !important;
     padding: 10px !important;
+    background-color: #f0f5f8!important;
   }
-  &__card:hover{
+  &__centerCard{
     box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 80px 80px 5px 5px !important;
+    padding: 10px !important;
     background-color: white !important;
+    color: #999999;
+
   }
 
   &__imageContainer {

@@ -1,0 +1,29 @@
+@use "../../mixin" as *;
+.collectionSection {
+  &__title {
+  @include titleStyle;
+  }
+
+  &__row {
+    height: 300px;
+  }
+  &__responsiveMode{
+    display: none;
+  }
+}
+@include large{
+  .collectionSection{
+    display: block;
+    &__responsiveMode{
+      display: none;
+    }
+  }
+}
+@include large-Down{
+  .collectionSection{
+    display: none;
+    &__responsiveMode{
+      display: block;
+    }
+  }
+}

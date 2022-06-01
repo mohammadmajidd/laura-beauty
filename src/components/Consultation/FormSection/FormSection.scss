@@ -1,17 +1,27 @@
-.FormSection button{
-  background-color: #c24b71;
-  border: none;
-  border-radius: 30px;
-  padding: 10px 30px;
-}
+@use "../../../mixin" as *;
+
 .FormSection{
   display: flex;
   align-items: center;
+  @include small-down{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+  }
   input{
     border-radius: 30px;
     padding: 10px;
     width: 464px;
     height: 40px;
     border: #cccccc solid 1px;
+    @include extra-Small{
+     width: 250px;
+    }
+  }
+  button{
+    background-color: #c24b71 !important;
+    border: none;
+    border-radius: 30px;
+    padding: 10px 30px;
   }
 }

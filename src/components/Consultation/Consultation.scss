@@ -1,16 +1,40 @@
+@use "../../mixin" as *;
 .consultationSection {
-  &__textContainer {
-    background-color: white;
 
+  border-radius: 60px !important;
+
+  &__textContainer {
     h2 {
-      font-family: 'Montserrat', sans-serif;
+      font-size: 35px;
       font-weight: bold;
     }
   }
 
   &__imageContainer {
 
-    img {
+  }
+}
+@include small-down{
+.consultationSection{
+
+  &__textContainer {
+    padding: 15px 0;
+    text-align: center;
+    h2 {
+      font-size: 25px;
+    }
+  }
+}
+}
+@include medium-only{
+  .consultationSection{
+
+    &__textContainer {
+      padding: 20px;
+      text-align: center;
+      h2 {
+        font-size: 25px;
+      }
     }
   }
 }
