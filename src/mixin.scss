@@ -65,6 +65,11 @@ $xx-largeWidth: 1400px;
     @content;
   }
 }
+@mixin xx-Large-up{
+  @media (min-width: #{$xx-largeWidth}) {
+    @content;
+  }
+}
 @mixin titleStyle{
   margin-bottom: 80px;
   border-bottom: 1px solid #ddd;

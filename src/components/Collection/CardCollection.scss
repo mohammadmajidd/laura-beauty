@@ -5,30 +5,37 @@
   }
 
   &__row {
-    height: 300px;
+    height: 600px;
   }
   &__responsiveMode{
     display: none;
   }
 }
-@include large{
+
+//Responsive Mode
+@include xx-Large{
+.collectionSection{
+  &__row{
+    height: auto;
+  }
+}
+}
+@include xx-Large-up{
   .collectionSection{
     display: block;
-    &__row {
-    }
     &__responsiveMode{
       display: none;
 
     }
   }
 }
-@include large-Down{
+@include xx-Large{
   .collectionSection{
     display: none;
 
     &__responsiveMode{
       display: block;
-      background-color: #e1a5b8;
     }
   }
 }
+
