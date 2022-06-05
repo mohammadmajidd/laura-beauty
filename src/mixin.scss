@@ -39,6 +39,11 @@ $xx-largeWidth: 1400px;
     @content;
   }
 }
+@mixin medium{
+  @media  (max-width: #{$mediumWidth}){
+    @content
+  }
+}
 
 @mixin large {
   @media (min-width: #{$largeWidth}) {
@@ -46,7 +51,7 @@ $xx-largeWidth: 1400px;
   }
 }
 @mixin large-Down {
-  @media (max-width: #{$largeWidth - 1}) {
+  @media (max-width: #{$largeWidth}) {
     @content;
   }
 }

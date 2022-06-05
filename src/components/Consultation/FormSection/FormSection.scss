@@ -1,9 +1,9 @@
 @use "../../../mixin" as *;
-
+@use "../../../custom" as *;
 .FormSection{
   display: flex;
   align-items: center;
-  @include small-down{
+  @include medium{
     flex-direction: column;
     justify-content: space-between;
     height: 100px;
@@ -19,7 +19,7 @@
     }
   }
   button{
-    background-color: #c24b71 !important;
+    background-color: $primary !important;
     border: none;
     border-radius: 30px;
     padding: 10px 30px;

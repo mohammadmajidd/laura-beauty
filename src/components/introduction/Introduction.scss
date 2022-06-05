@@ -1,17 +1,18 @@
 @import "../../custom";
 @import "../../mixin";
+
 .introSection {
-  //padding:1rem 0;
+
+
   &__intro {
-    padding-bottom: 2rem;
+    padding:  0 !important;
 
     h1 {
-      //background-color: $primary;
       font-weight: bold;
       font-size: 80px;
       margin: 60px auto;
       @include extra-Small {
-        font-size: 65px;
+        font-size: 35px;
       }
 
       span {
@@ -20,19 +21,31 @@
     }
 
     p {
+      font-size: 20px;
       font-weight: 600;
+      letter-spacing: 1.2px;
+      text-align: left;
+      color: #271d20;
+      margin: 0 !important;
     }
   }
 
-  &__intro button,&__intro button:hover {
+  &__intro a,
+  &__intro a:hover,
+  &__intro a:active {
     background-color: $primary;
+    display: inline-block;
     border: none;
     letter-spacing: 0.96px;
+    color: #fff !important;
+    cursor: pointer;
     font-weight: 600;
     border-radius: 30px;
-    padding: 10px 25px 10px 25px;
+    padding: 13px 25px;
     text-transform: capitalize;
+    line-height: normal;
+    margin: 40px 0;
+
   }
 }
 
-@import '~bootstrap/dist/css/bootstrap.css';

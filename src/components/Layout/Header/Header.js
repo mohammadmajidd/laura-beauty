@@ -1,9 +1,9 @@
 import React from 'react';
 import {Container, Nav, Navbar} from "react-bootstrap";
-import logo from '../../../assets/navBar icons/logo.svg'
-import searchIcon from '../../../assets/navBar icons/search-interface-symbol.svg'
-import userIcon from '../../../assets/navBar icons/ic user.svg'
-import shoppingIcon from '../../../assets/navBar icons/shopping-bag-of-normal-design-outline.svg'
+import logo from '../../../assets/NavBarIcons/logo.svg'
+import searchIcon from '../../../assets/NavBarIcons/search-interface-symbol.svg'
+import userIcon from '../../../assets/NavBarIcons/ic user.svg'
+import shoppingIcon from '../../../assets/NavBarIcons/shopping-bag-of-normal-design-outline.svg'
 import './Header.scss'
 
 const Header = () => {

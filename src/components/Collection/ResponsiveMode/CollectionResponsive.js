@@ -18,12 +18,14 @@ const CollectionResponsive = () => {
                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                 breakpoints={{
                     305: {slidesPerView: 1, spaceBetween: 65},
-                    576: {slidesPerView: 1.5, spaceBetween: 15},
-                    768: {slidesPerView: 2, spaceBetween: 15},
-                    992: {slidesPerView: 1.2, spaceBetween: 65},
-                    1200: {slidesPerView: 5, spaceBetween: 15},
+                    400: {slidesPerView: 2, spaceBetween: 45},
+                    576: {slidesPerView: 2.5, spaceBetween: 15},
+                    768: {slidesPerView: 3, spaceBetween: 15},
+                    992: {slidesPerView: 4, spaceBetween: 65},
+                    1200: {slidesPerView: 4, spaceBetween: 15},
                     1400: {slidesPerView: 5, spaceBetween: 15}
                 }}
+                pagination={true}
 
             >
                 {myCollectionResponsiveMode.map(el => <SwiperSlide key={el.id}><SingleCard name={el.name}

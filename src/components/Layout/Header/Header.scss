@@ -1,6 +1,9 @@
+@use "../../../custom" as *;
+
 .header {
   display: flex;
   justify-content: center;
+  padding: 0 !important;
 
   &__logo {
     display: flex;
@@ -8,7 +11,7 @@
     line-height: 16px;
 
     p:first-child {
-      color: #c24b71;
+      color: $primary;
       letter-spacing: 2.88px;
       font-weight: 800;
       font-size: 24px;
@@ -24,8 +27,8 @@
   }
 
   .active {
-    border-bottom: #c24b71 solid 1px;
-    color: #c24b71 !important;
+    color: $primary !important;
+    border-bottom: solid 1px currentColor;
   }
 
   &__nav {
@@ -39,6 +42,7 @@
     display: flex;
     flex-direction: row !important;
     align-items: center !important;
+
     &__iconContainer {
       width: 20px;
 

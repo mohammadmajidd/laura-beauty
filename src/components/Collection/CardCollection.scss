@@ -14,16 +14,21 @@
 @include large{
   .collectionSection{
     display: block;
+    &__row {
+    }
     &__responsiveMode{
       display: none;
+
     }
   }
 }
 @include large-Down{
   .collectionSection{
     display: none;
+
     &__responsiveMode{
       display: block;
+      background-color: #e1a5b8;
     }
   }
 }

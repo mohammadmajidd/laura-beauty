@@ -1,3 +1,4 @@
+@use "../../custom" as *;
 .productCard {
   border-radius: 30px !important;
   width: 280px;
@@ -6,7 +7,7 @@
   }
   &__cardHeader {
     div {
-      background-color: #c24b71;
+      background-color: $primary;
       color: #fff;
       font-weight: 600;
       font-size: 8px;
@@ -57,7 +58,7 @@
     button {
       background-color: #ffffff;
       box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-      color: #c24b71;
+      color: $primary;
       border-radius: 50%;
       text-align: center;
       border: none;

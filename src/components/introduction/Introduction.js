@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button, Col, Container, Row} from "react-bootstrap";
+import {Col, Container, Row} from "react-bootstrap";
 import './Introduction.scss'
 
 const Introduction = () => {
@@ -10,9 +10,8 @@ const Introduction = () => {
                     <h1>
                         Look <br/> M<span>o</span>re Beautiful With Us
                     </h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <Button className={'btn-primary'}>shop now</Button>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                    <a>shop now</a>
                 </Col>
             </Row>
         </Container>

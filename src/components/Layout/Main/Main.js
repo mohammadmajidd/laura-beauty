@@ -18,7 +18,6 @@ const Main = () => {
                     <ConsultationPage/>
                 </div>
             </div>
-
             <CommentsPage/>
             <LauraBeautyPage/>
         </div>

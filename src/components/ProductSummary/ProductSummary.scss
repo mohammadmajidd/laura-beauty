@@ -1,15 +1,17 @@
 @use "../../mixin" as *;
-@import "../../custom" ;
+@use "../../custom" as *;
 
 .productSummary {
-  &__title{
+  &__title {
     @include titleStyle;
-    span{
+
+    span {
       background-color: #f7f3f0;
     }
   }
+
   &__imageContainer {
-  background-color: #f7f3f0;
+    background-color: #f7f3f0;
   }
 
   background-color: white;
@@ -19,7 +21,9 @@
     font-size: 120px;
     font-weight: bold;
     letter-spacing: normal;
-
+    @include small-down{
+      //font-size: 50px;
+    }
   }
 
   p:nth-child(2) {

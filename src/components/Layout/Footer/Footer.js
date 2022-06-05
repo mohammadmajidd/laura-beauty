@@ -1,7 +1,10 @@
 import React from 'react';
-import {Container, Nav} from "react-bootstrap";
+import {Nav} from "react-bootstrap";
 import logo from '../../../assets/Footer/footerLogo.svg'
 import '../Footer/Footer.scss'
+import facebook from '../../../assets/Footer/FooterIcons/face.svg'
+import tweeter from '../../../assets/Footer/FooterIcons/tweet.svg'
+
 const Footer = () => {
     return (
         <div className={'footerSection'}>
@@ -23,6 +26,17 @@ const Footer = () => {
                 </Nav.Item>
                 <Nav.Item>
                     <Nav.Link className={'text-black'}>About</Nav.Link>
+                </Nav.Item>
+            </Nav>
+            <Nav className={'d-flex justify-content-center border-bottom'}>
+                <Nav.Item>
+                    <Nav.Link className={'text-black p-1'}><img alt={facebook} src={facebook}/></Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link className={'text-black p-1'}><img alt={tweeter} src={tweeter}/></Nav.Link>
+                </Nav.Item>
+                <Nav.Item>
+                    <Nav.Link className={'text-black p-1'}><img alt={facebook} src={facebook}/></Nav.Link>
                 </Nav.Item>
             </Nav>
         </div>

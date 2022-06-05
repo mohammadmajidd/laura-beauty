@@ -1,6 +1,7 @@
 @use "../../mixin" as *;
 .consultationSection {
-
+  background: rgb(245,245,245);
+  background: linear-gradient(90deg, rgba(245,245,245,1) 23%, #F9F9F9 28.000000000000004%, #FCFCFC 76%);
   border-radius: 60px !important;
 
   &__textContainer {

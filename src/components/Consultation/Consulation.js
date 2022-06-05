@@ -7,7 +7,7 @@ import Image from 'react-bootstrap/Image'
 
 const Consultation = () => {
     return (
-        <Container className={'consultationSection mt-5 pb-3'}>
+        <Container className={'consultationSection mt-5  pb-5'}>
             <Row>
                 <Col xs={12} sm={12} md={5} className={'consultationSection__imageContainer'}>
                     <Image className={'img-fluid w-100 h-100'} alt={consulter} src={consulter}/>

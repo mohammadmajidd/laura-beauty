@@ -2,14 +2,21 @@
 
 .singleCard {
   border-radius: 50px !important;
-
+  width: 240px;
+  height: 270px;
+  &__cardContent{
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
   svg {
-    fill: #c24b71 ;
+    fill: $primary ;
   }
 
   &__imageContainer {
-    margin: auto;
-    padding: 50px 40px;
+    display: flex;
+    justify-content: center;
 
     &__imageCard {
       width: 100%;
@@ -29,7 +36,7 @@
 }
 
 .singleCard:hover h5 {
-  color: white;
+  color: #fff;
 
 }
 
