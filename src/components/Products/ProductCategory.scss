@@ -1,14 +1,27 @@
 @use "../../custom" as *;
+@use "../../mixin" as *;
+
+.nav-pills .nav-link.active {
+  background-color: $primary !important;
+  border-radius: 30px !important;
+  color: #ffffff !important;
+}
 
 .productCategory {
   margin: 50px auto;
-  &__navBar{
-    background-color: white;
+
+  &__navBar {
+    background-color: #ffffff;
     border-radius: 30px;
   }
 
 }
-.nav-pills .nav-link.active{
-  background-color: $primary !important;
-  border-radius: 30px !important;
+@include small-down{
+  .productCategory{
+    &__navBar {
+      border-radius: 20px;
+      text-align: center;
+    }
+  }
 }
+

@@ -1,13 +1,13 @@
 import React from 'react';
-import {Form,Button} from "react-bootstrap";
+import {Form, Button, Container} from "react-bootstrap";
 import './FormSection.scss'
 
 const FormSection = () => {
     return (
-        <div className={'FormSection'}>
+        <Container className={'FormSection'}>
             <input placeholder={'Your phone number'}/>
             <Button>Callback</Button>
-        </div>
+        </Container>
     );
 };
 

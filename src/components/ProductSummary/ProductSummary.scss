@@ -21,13 +21,19 @@
     font-size: 120px;
     font-weight: bold;
     letter-spacing: normal;
-    @include small-down{
-      //font-size: 50px;
+    @include large-Down{
+      font-size: 90px;
+    }
+    @include extra-Small{
+      font-size: 50px;
     }
   }
 
-  p:nth-child(2) {
+  span {
     transform: translateY(-50px);
+    @include extra-Small{
+      transform: translateY(-30px);
+    }
   }
 
   &__category {
@@ -38,6 +44,9 @@
     p:first-child {
       span {
         font-size: 60px;
+        @include large-Down{
+          font-size: 30px;
+        }
       }
     }
   }

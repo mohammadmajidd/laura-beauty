@@ -3,20 +3,14 @@
 .FormSection{
   display: flex;
   align-items: center;
-  @include medium{
-    flex-direction: column;
-    justify-content: space-between;
-    height: 100px;
-  }
+  gap: 10px;
+  margin-top: 30px;
   input{
     border-radius: 30px;
     padding: 10px;
     width: 464px;
     height: 40px;
     border: #cccccc solid 1px;
-    @include extra-Small{
-     width: 250px;
-    }
   }
   button{
     background-color: $primary !important;
@@ -24,4 +18,42 @@
     border-radius: 30px;
     padding: 10px 30px;
   }
+}
+@include xLarge{
+  button{
+    border-radius: 25px;
+    padding: 10px 20px;
+  }
+}
+@include large-Down{
+  .FormSection{
+    button{
+      padding: 8px 10px !important;
+      font-size: 12px !important;
+    }
+  }
+
+}
+@include  medium{
+  .FormSection{
+    flex-direction: column;
+    gap: 40px;
+    input{
+      width: 350px !important;
+    }
+    button{
+      border-radius: 25px !important;
+      padding: 10px 20px !important;
+      font-size: 16px !important;
+    }
+  }
+
+}
+@include extra-Small{
+  .FormSection{
+    input{
+      width: 250px !important;
+    }
+  }
+
 }

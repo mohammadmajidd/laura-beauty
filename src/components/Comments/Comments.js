@@ -22,11 +22,13 @@ const Comments = () => {
                     breakpoints={{
                         375: {slidesPerView: 1},
                         425: {slidesPerView: 1, spaceBetween: 45},
-                        1024: {slidesPerView: 1.2, spaceBetween: 65},
-                        1440: {slidesPerView: 1.8, spaceBetween: 15}
+                        576: {slidesPerView: 1.3, spaceBetween: 15},
+                        768: {slidesPerView: 1.4, spaceBetween: 45},
+                        992: {slidesPerView: 1.5, spaceBetween: 45},
+                        1200: {slidesPerView: 1.5, spaceBetween: 25},
+                        1400: {slidesPerView: 1.7, spaceBetween: 15,centeredSlides:true}
                     }}
                     initialSlide={1}
-                    centeredSlides={true}
                     pagination={true}
 
                 >

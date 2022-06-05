@@ -10,7 +10,7 @@ const ProductCard = ({product}) => {
                 <div>new</div>
             </div>
             <div className={'productCard__imageContainer'}>
-                <Card.Img variant="top" src={product.image}/>
+                <Card.Img className={'img-fluid'} variant="top" src={product.image}/>
             </div>
 
             <Card.Body as={'section'}>

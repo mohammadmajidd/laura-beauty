@@ -1,40 +1,49 @@
 @use "../../mixin" as *;
+
 .consultationSection {
-  background: rgb(245,245,245);
-  background: linear-gradient(90deg, rgba(245,245,245,1) 23%, #F9F9F9 28.000000000000004%, #FCFCFC 76%);
+  background: rgb(245, 245, 245);
+  background: linear-gradient(90deg, #F9F9F9 5%, #fff 90%);
   border-radius: 60px !important;
 
   &__textContainer {
+    padding-top: 20px;
     h2 {
       font-size: 35px;
       font-weight: bold;
     }
   }
-
-  &__imageContainer {
-
-  }
 }
-@include small-down{
-.consultationSection{
 
-  &__textContainer {
-    padding: 15px 0;
-    text-align: center;
-    h2 {
-      font-size: 25px;
+@include xLarge {
+  .consultationSection {
+    &__textContainer {
+      h2 {
+        font-size:26px;
+        font-weight: bold;
+      }
     }
   }
 }
-}
-@include medium-only{
-  .consultationSection{
+@include large-Down{
+  .consultationSection {
 
     &__textContainer {
-      padding: 20px;
-      text-align: center;
+      padding-top: 40px;
       h2 {
-        font-size: 25px;
+        font-size:20px;
+      }
+    }
+  }
+}
+@include medium{
+  .consultationSection {
+    border-radius: 30px !important;
+    &__textContainer {
+      //padding-top: 40px;
+      h2 {
+        font-size:25px;
+        text-align: center;
+
       }
     }
   }

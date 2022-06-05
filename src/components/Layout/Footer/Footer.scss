@@ -1,7 +1,12 @@
+@use "../../../mixin" as *;
 .footerSection{
   background-color: #f7f3f0;
   border-top-left-radius: 50%;
   border-top-right-radius: 50%;
+  @include medium-only{
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+  }
   &__imageContainer{
     width: 120px;
     margin: auto;

@@ -10,25 +10,26 @@ const ProductSummary = () => {
             <h2 className=" text-center fw-bold mt-5 productSummary__title"><span>Various products</span></h2>
             <Container>
                 <Row className={'productSummary'}>
-                    <Col  className={'productSummary__imageContainer p-0 d-none d-xl-block'}>
-                        <img alt={brush} src={brush}/>
+                    <Col className={'productSummary__imageContainer p-0 d-none d-md-block'}>
+                        <img className={'img-fluid h-100'} alt={brush} src={brush}/>
                     </Col>
+
                     <Col
-                        className={'d-flex justify-content-center flex-column align-items-center productSummary__category'}>
+                        className={'d-flex flex-column justify-content-center align-items-center productSummary__category'}>
                         <p>6</p>
-                        <p>category</p>
+                        <span>category</span>
                     </Col>
-                    <Col className={'d-flex justify-content-center flex-column align-items-center productSummary'}>
+                    <Col className={'d-flex flex-column justify-content-center  align-items-center productSummary'}>
                         <p>10</p>
-                        <p>brands</p>
+                        <span>brands</span>
                     </Col>
                     <Col
-                        className={'d-flex justify-content-center flex-column align-items-center productSummary__products'}>
+                        className={'d-flex flex-column justify-content-center  align-items-center productSummary__products'}>
                         <p>9<span>k</span></p>
-                        <p>products</p>
+                        <span>products</span>
                     </Col>
-                    <Col   className={'productSummary__imageContainer p-0 d-none d-xl-block'}>
-                        <img alt={palette} src={palette}/>
+                    <Col className={'productSummary__imageContainer  p-0 d-none d-md-block'}>
+                        <img className={'img-fluid  h-100'} alt={palette} src={palette}/>
                     </Col>
                 </Row>
             </Container>
