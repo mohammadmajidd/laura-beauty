@@ -6,12 +6,15 @@ const Introduction = () => {
     return (
         <Container>
             <Row className='mt-5'>
-                <Col xs={12} md={8} lg={6} className='introSection__intro'>
+                <Col xs={12} md={8} lg={6} className='introduction'>
                     <h1>
                         Look <br/> M<span>o</span>re Beautiful With Us
                     </h1>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                    <a>shop now</a>
+                    <div>
+                        <a>shop now</a>
+                    </div>
+
                 </Col>
             </Row>
         </Container>

@@ -55,8 +55,13 @@ $xx-largeWidth: 1400px;
     @content;
   }
 }
-@mixin xLargeUp{
-  @media (min-width: #{$x-largeWidth}) {
+@mixin xLarge{
+  @media (max-width: #{$x-largeWidth}) {
+    @content;
+  }
+}
+@mixin xx-Large{
+  @media (max-width: #{$xx-largeWidth}) {
     @content;
   }
 }

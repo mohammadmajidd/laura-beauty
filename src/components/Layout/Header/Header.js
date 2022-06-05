@@ -13,7 +13,7 @@ const Header = () => {
                 <Container className={'header'}>
                     <Navbar.Brand className={'header__logo'}>
                         <img alt={logo} src={logo}/>
-                        <div>
+                        <div className={'header__textLogo'}>
                             <p>Laura</p>
                             <p>beauty</p>
                         </div>
