@@ -19,14 +19,14 @@ const Header = () => {
                         </div>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav"/>
-                    <Navbar.Collapse id="basic-navbar-nav">
+                    <Navbar.Collapse className={'text-center'} id="basic-navbar-nav">
                         <Nav className={'header__nav'}>
                             <Nav.Link className={'me-4 ms-4'} href="#home">Brands</Nav.Link>
                             <Nav.Link className={'me-4 ms-4'} href="#features">Products</Nav.Link>
                             <Nav.Link className={'me-4 ms-4'} href="#pricing">Branches</Nav.Link>
                             <Nav.Link className={'me-4 ms-4'} href="#price">About Us</Nav.Link>
                         </Nav>
-                        <Nav className={'header__navIcon'}>
+                        <Nav className={'header__navIcon justify-content-center'}>
                             <Nav className={'me-2 ms-2 header__navIcon__iconContainer'}><img alt={searchIcon} src={searchIcon}/></Nav>
                             <Nav className={'me-2 ms-2 header__navIcon__iconContainer'}><img alt={userIcon}
                                                                                     src={userIcon}/></Nav>

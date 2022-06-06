@@ -8,8 +8,9 @@ const ProductCard = ({product}) => {
             <div className={'d-flex justify-content-between align-items-center productCard__cardHeader'}>
                 <img alt='icon' src={product.icon}/>
                 <div>new</div>
+
             </div>
-            <div className={'productCard__imageContainer'}>
+            <div className={`productCard__imageContainer`}>
                 <Card.Img className={'img-fluid'} variant="top" src={product.image}/>
             </div>
 

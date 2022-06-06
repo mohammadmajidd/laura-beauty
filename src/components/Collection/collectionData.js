@@ -65,14 +65,14 @@ const estee = <svg xmlns="http://www.w3.org/2000/svg" width="102.443" height="10
 </svg>
 
 export const myCollection = [
-    {id: 1, image: clinique, name: 'channel'},
+    {id: 1, image: clinique, name: 'chanel'},
     {id: 2, image: elf, name: 'elf'},
     {id: 3, image: givenchy, name: 'givenchy'},
     {id: 4, image: clinique, name: 'clinique'},
     {id: 50, image: givenchy, name: 'estee lauder'},
     {id: 6, image: clinique, name: 'clinque'},
     {id: 7, image: givenchy, name: 'estee lauder'},
-    {id: 8, image: clinique, name: 'channel'},
+    {id: 8, image: clinique, name: 'chanel'},
     {id: 9, image: elf, name: 'elf'},
     {id: 10, image: givenchy, name: 'givenchy'},
 ]
