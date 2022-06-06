@@ -1,0 +1,21 @@
+.footerSection {
+  background-color: #f7f3f0;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .footerSection {
+    border-top-left-radius: 15%;
+    border-top-right-radius: 15%;
+  }
+}
+.footerSection__imageContainer {
+  width: 120px;
+  margin: auto;
+  transform: translateY(-40%);
+}
+.footerSection__imageContainer img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Footer.css.map */

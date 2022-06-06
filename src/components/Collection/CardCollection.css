@@ -1,0 +1,41 @@
+.collectionSection__title {
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ddd;
+  line-height: 0.1em;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.collectionSection__title span {
+  background: #fff;
+  padding: 0 10px;
+}
+.collectionSection__row {
+  height: 600px;
+}
+.collectionSection__responsiveMode {
+  display: none;
+}
+
+@media (max-width: 1400px) {
+  .collectionSection__row {
+    height: auto;
+  }
+}
+@media (min-width: 1400px) {
+  .collectionSection {
+    display: block;
+  }
+  .collectionSection__responsiveMode {
+    display: none;
+  }
+}
+@media (max-width: 1400px) {
+  .collectionSection {
+    display: none;
+  }
+  .collectionSection__responsiveMode {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=CardCollection.css.map */

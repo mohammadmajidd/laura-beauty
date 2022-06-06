@@ -1,0 +1,13 @@
+.heading {
+  margin-bottom: 80px;
+  border-bottom: 1px solid #ddd;
+  line-height: 0.1em;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.heading span {
+  background: #fff;
+  padding: 0 10px;
+}
+
+/*# sourceMappingURL=Comments.css.map */
